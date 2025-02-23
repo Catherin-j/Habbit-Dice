@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Minimalist Habit Dice</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Minimalist Habit Dice</h1>
+    <p>Roll the dice to get a random habit for today!</p>
+
+    <!-- Dice Button -->
+    <button id="rollDice">🎲 Roll the Dice</button>
+
+    <!-- Display Habit -->
+    <div id="habitDisplay" class="habit-display"></div>
+
+    <!-- Track Progress -->
+    <div class="progress-section">
+      <h2>Today's Progress</h2>
+      <button id="markComplete" disabled>✅ Mark as Complete</button>
+    </div>
+
+    <!-- Customize Habits -->
+    <div class="customization-section">
+      <h2>Customize Habits</h2>
+      <input type="text" id="newHabit" placeholder="Add a new habit">
+      <button id="addHabit">➕ Add Habit</button>
+      <ul id="habitList"></ul>
+    </div>
+  </div>
+
+  <script src="scripts.js"></script>
+</body>
+</html>
